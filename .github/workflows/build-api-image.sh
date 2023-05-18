@@ -42,9 +42,6 @@ cat<<EOF
   - ${API_REPO_NAME}:${LATEST_TAG}
 EOF
 
-#
-# Build image
-#
 cd api
 docker build \
   ${API_CACHE_FROM_SCRIPT} \
